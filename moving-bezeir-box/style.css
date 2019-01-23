@@ -1,0 +1,36 @@
+#moreinfo:hover {
+    background-color: #0000FF;
+    color: #FFFFFF;
+    height: 377px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    position: center;
+    border: 2px solid #FFFFFF;
+    z-index: 1000;
+    margin-top: -175px;
+    box-shadow: 0px 0px 0px 2px #0000FF;
+    -webkit-transition-timing-function: cubic-bezier(0.7,2, 0.05,0.5);
+    transition-timing-function: cubic-bezier(0.7,2, 0.05, 0.5);
+}
+
+
+#moreinfo {
+    color: #1c1c1c;
+    padding: 10px 12px 0px 12px;
+    background-color: #ffffff;
+    width: 728px;
+    height: 40px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    position: center;
+    margin-top: -22px;
+    border: 2px solid #444444;
+    box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    -webkit-transition-timing-function: cubic-bezier(0.7,2, 0.05,1.0);
+    transition-timing-function: cubic-bezier(0.7,2, 0.05, 0.5);
+}
+
+#moreinfo:before{
+  content: hello
+}
